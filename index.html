@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Гаджеты в аренду</title>
+	<!-- Critical CSS --><style>html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}a{background-color:transparent}strong{font-weight:bolder}img{border-style:none}button,input{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button{text-transform:none}[type=submit],button{-webkit-appearance:button}[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}*{box-sizing:border-box}body{font-family:'Proxima Nova',sans-serif,sans-serif;color:#1f1f1f}.wrapper{max-width:1320px;margin:0 auto;padding:0 15px}.main{min-height:4000px}.link{text-decoration:none;color:#1f1f1f}.link_primary{color:#57c460}.title1{font-weight:800;font-size:60px;line-height:64px;margin:0}.title1 strong{position:relative}.title1 strong:before{content:'';background:#57c460;opacity:.6;height:23px;width:calc(100% + 5px);bottom:10px;right:0;position:absolute;z-index:-1}.btn{background:#57c460;padding:15px 30px;color:#fff;border-radius:6px;border:none}.header__top{background:#f2f4f6;padding:9px 0}.header__top-content{display:flex;align-items:center}.header__location:after,.header__location:before,.header__phone:before,.header__point:before,.header__worktime:before{content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);background-position:center;background-repeat:no-repeat}.header__location{margin-right:40px;padding-left:28px;padding-right:21px;position:relative}.header__location:before{background-image:url(../images/icons/icons.svg#location);width:22px;height:28px}.header__location:after{background-image:url(../images/icons/icons.svg#down);width:16px;height:9px;right:0;left:initial}.header__point{position:relative;padding-left:33px}.header__point:before{background-image:url(../images/icons/icons.svg#pickup-point);width:24px;height:19px}.header__worktime{margin:0 40px 0 auto;padding-left:28px;position:relative}.header__worktime:before{background-image:url(../images/icons/icons.svg#clock);width:23px;height:23px}.header__phone{padding-left:28px;position:relative;margin-right:40px}.header__phone:before{background-image:url(../images/icons/icons.svg#phone);width:20px;height:22px}.header__bottom-content{display:flex;padding-top:30px}.header__menu{margin-left:auto}.menu__list{list-style-type:none;display:flex}.menu__item:not(:last-child){margin-right:60px}.menu__toggle{background:0 0;border:none;height:30px;padding:0;display:none}.menu__lines{position:relative;border:none;padding:0;z-index:6}.menu__lines,.menu__lines:after,.menu__lines:before{content:'';height:1.5px;border-radius:3px;background:#57c460;display:block;transform:rotate(0);width:32px}.menu__lines:before{position:absolute;transform:translateY(-8px);display:block;right:0}.menu__lines:after{content:'';position:absolute;display:block;transform:translateY(8px);right:0}.main{background:#f2f4f6}.banner{padding:23px 0 72px;position:relative;overflow:hidden;background:#fff}.banner:after,.banner:before{content:'';width:830px;height:365px;position:absolute;background-size:contain;right:0;background:url(../images/banner-bg.svg) center right no-repeat}.banner:before{top:41px}.banner:after{bottom:0;right:-50px}.banner__content{display:flex;justify-content:space-between}.banner__inf{max-width:777px}.banner__title1{max-width:722px}.banner__title2{font-size:36px;line-height:44px;margin-top:31px}.banner__text{font-size:20px;line-height:28px;margin-top:39px}.banner__form{margin-top:52px}.banner__bg{position:relative;z-index:1}.banner__bg:after{content:'';left:0;width:220px;height:20px;position:absolute;bottom:-40px;left:50%;transform:translateX(-50%);background:rgba(31,31,31,.1);-webkit-filter:blur(10px);filter:blur(10px)}.banner__price{position:absolute;left:-68px;bottom:-22px;width:140px;height:140px;background:#57c460;display:flex;align-items:center;justify-content:center;text-align:center;flex-wrap:wrap;color:#fff;font-size:18px;transform:rotate(-10deg);border-radius:50%}.banner__price strong{font-weight:800;font-size:40px;line-height:49px}.cb-form{display:flex;flex-wrap:wrap;align-items:flex-start}.cb-form__field{width:200px;max-width:100%;margin-right:20px;padding:15px 16px;background:#f2f4f6;border-radius:6px;border:none}.cb-form__field::-moz-placeholder{color:#8b8b8b}.cb-form__field:-ms-input-placeholder{color:#8b8b8b}.cb-form__field::-ms-input-placeholder{color:#8b8b8b}.cb-form__text{margin-top:8px;margin-bottom:0;font-size:14px;text-align:center}</style>
+	<link rel="stylesheet" href="dist/css/styles-c678a50eed.css">
+</head>
+
+<body class="body body_green">
+	<header class="header">
+		<div class="header__top">
+			<div class="wrapper">
+				<div class="header__top-content">
+					<a href="#" class="link header__location">Москва</a>
+					<a href="#" class="link header__point">Пункты выдачи</a>
+					<p class="header__worktime">Без выходных с 10:00 до 20:00</p>
+					<a href="#" class="link header__phone">+7 (499) 938-41-77</a>
+					<a href="#" class="link link_primary header__call">Перезвонить вам?</a>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="wrapper">
+				<div class="header__bottom-content">
+					<a href="#" class="logo">
+						<img src="dist/images/logo.svg" alt="">
+					</a>
+					<nav class="menu header__menu">
+						<ul class="menu__list">
+							<li class="menu__item"><a class="link menu__link" href="#">Для бизнеса</a></li>
+							<li class="menu__item"><a class="link menu__link" href="#">Для частных лиц</a></li>
+							<li class="menu__item"><a class="link menu__link" href="#">3D принтеры</a></li>
+							<li class="menu__item"><a class="link menu__link" href="#">Условия аренды</a></li>
+							<li class="menu__item"><a class="link menu__link" href="#">Ещё</a></li>
+						</ul>
+						<button class="menu__toggle">
+							<span class="menu__lines"></span>
+						</button>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+
+		<section class="banner">
+			<div class="wrapper">
+				<div class="banner__content">
+					<div class="banner__inf">
+						<h1 class="title1 banner__title1">Смартфоны, планшеты
+							и 3-D принтеры <strong>в аренду</strong></h1>
+						<h2 class="banner__title2">Без кредитов рассрочек и банков</h2>
+						<p class="banner__text">Все смартфоны перед арендой проходят техническую проверку и дезинфекцию
+							Даём гарантию, что всё будет работать или бесплатно заменим за 24 часа</p>
+						<form action="" class="cb-form banner__form">
+							<input type="text" class="cb-form__field" placeholder="Ваше имя">
+							<input type="text" class="cb-form__field" placeholder="Телефон">
+							<div class="cb-form__footer">
+								<input type="submit" class="btn cb-form__submit"
+									value="Подобрать смартфон под мои задачи">
+								<p class="cb-form__text">Перезвоним в течении 10 мин. и отдадим сегодня</p>
+							</div>
+						</form>
+					</div>
+					<div class="banner__bg">
+						<img src="dist/images/phone.jpg" alt="" class="banner__img">
+						<div class="banner__price">
+							<div class="banner__price-text">
+								от <strong>60р</strong> в&nbsp;день
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="features">
+			<div class="wrapper">
+				<div class="features__list">
+					<div class="features__item">
+						<img src="dist/images/features/1.svg" alt="" class="features__item-icon">
+						<p class="features__item-text">Только оригиналы в отличном состоянии <br>
+							У нас нет “китайских” телефонов</p>
+					</div>
+					<div class="features__item">
+						<img src="dist/images/features/2.svg" alt="" class="features__item-icon">
+						<p class="features__item-text">Забирайте своё устройство <br>
+							в течении часа</p>
+					</div>
+					<div class="features__item">
+						<img src="dist/images/features/3.svg" alt="" class="features__item-icon">
+						<p class="features__item-text">Ремонт, сервис и обслуживание <br>
+							мы берём на себя</p>
+					</div>
+					<div class="features__item">
+						<img src="dist/images/features/4.svg" alt="" class="features__item-icon">
+						<p class="features__item-text">Хотите выкупить? <br>
+							Пожалуйста!</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="benefit">
+			<div class="wrapper">
+				<div class="benefit__content">
+					<div class="benefit__inf">
+						<h2 class="title2">Вам не надо тратить деньги на покупку гаджета и время на его выбор!</h2>
+						<h3 class="title3 benefit__title3">Если он нужен всего на неделю или на 2 дня</h3>
+						<p class="text benefit__text">Не покупайте, платите только за дни использования</p>
+					</div>
+					<div class="benefit__bg">
+						<div class="benefit__circle"></div>
+						<img src="dist/images/benefits/1.png" alt="" class="benefit__img">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="rent-features">
+			<div class="wrapper">
+				<div class="rent-features__content">
+					<h2 class="title2 rent-features__title2">Аренда устройств у нас <strong>в несколько раз
+							дешевле,</strong>
+						чем существующие на рынке предложения</h2>
+					<div class="rent-features__list">
+						<div class="rent-features__item">
+							<h4 class="title4 rent-features__title4">
+								Аренда смартфона у нас <br>
+								<strong>60-150</strong> р./день
+							</h4>
+						</div>
+						<div class="rent-features__item">
+							<h4 class="title4 rent-features__title4">
+								В других компаниях <br>
+								от <strong>250</strong> р./день
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="info">
+			<div class="wrapper">
+				<div class="info__content">
+					<div class="info__main">
+						<h2 class="title2">Для бизнеса и частных лиц</h2>
+						<p class="text info__text">Наши гаджеты активно используют таксисты, курьеры, таксопарки,
+							курьерские службы, ивент-агенства, крупные компании и частные лица</p>
+						<div class="info__advs">
+							<div class="text info__adv">Одобрение <b>без участия банков и гражданства РФ.</b> <br>
+								Нас не волнует ваша кредитная история и долги</div>
+							<div class="text info__adv">Заберите свой телефон сегодня, <br> не покупая его, от
+								<strong>60 р./день</strong></div>
+						</div>
+						<button class="btn info__btn">Забрать свой телефон</button>
+					</div>
+					<img src="dist/images/info/1.jpg" alt="" class="info__img">
+				</div>
+			</div>
+		</section>
+
+		<section class="better">
+			<div class="wrapper">
+				<div class="better__content">
+					<h2 class="title2 better__title2">Забудьте об обслуживании, ремонте, мощности, чехлах и стеклах</h2>
+					<p class="text better__text">Мы сделали так, чтобы вы не беспокоились о своём смартфоне и
+						сконцентрировались на основном деле</p>
+					<div class="better__list">
+						<div class="better__item">
+							<h3 class="better__title3">Чем мы лучше аренды и лизинга?</h3>
+							<p class="text better__item-text">Мы предлагаем не только само устройство, но и полный
+								сервис:</p>
+							<div class="better__advs">
+								<div class="text better__adv">Обслуживание и ремонт</div>
+								<div class="text better__adv">Техническая поддержка</div>
+								<div class="text better__adv">Замена в случае поломки</div>
+								<div class="text better__adv">И прочие услуги</div>
+							</div>
+							<p class="better__ps">Устройство как сервис</p>
+						</div>
+						<div class="better__item">
+							<h3 class="better__title3">Чем мы лучше кредита и рассрочки?</h3>
+							<p class="text better__item-text">Вам могу не дать рассрочку или кредит в банке если:</p>
+							<div class="better__advs">
+								<div class="text better__adv">У вас плохая кредитная история</div>
+								<div class="text better__adv">Нет гражданства РФ</div>
+								<div class="text better__adv">И другие причины</div>
+							</div>
+							<p class="better__ps">Нем это неважно. Мы никак не касаемся банков.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="advantages">
+			<div class="wrapper">
+				<div class="advantages__content">
+					<h2 class="title2">Мы подстраиваемся под ваши желания</h2>
+					<p class="text advantages__text">Кому-то надо, чтобы был большой экран. Кто-то хочет мощный, быстрый
+						телефон. Третий мечтает об определённой марке.</p>
+					<div class="advantages__list">
+						<div class="advantages__item">
+							<img src="dist/images/advantages/1.svg" alt="" class="advantages__item-img">
+							<h4 class="advantages__title4">Наши смартфоны не тормозят</h4>
+							<p class="advantages__item-text">Поэтому вы экономите время и больше зарабатываете</p>
+						</div>
+						<div class="advantages__item">
+							<img src="dist/images/advantages/2.svg" alt="" class="advantages__item-img">
+							<h4 class="advantages__title4">Даём полный комплект для работы</h4>
+							<p class="advantages__item-text">Телефон, зарядка, кабель, магнитное крепление, внешние
+								аккумулятор, сим-карта с интернетом</p>
+						</div>
+						<div class="advantages__item">
+							<img src="dist/images/advantages/3.svg" alt="" class="advantages__item-img">
+							<h4 class="advantages__title4">Выберем за вас</h4>
+							<p class="advantages__item-text">Снимаем с вас головную боль поиска устройства под ваши
+								задачи</p>
+						</div>
+						<div class="advantages__item">
+							<img src="dist/images/advantages/4.svg" alt="" class="advantages__item-img">
+							<h4 class="advantages__title4">Надёжные аксессуары</h4>
+							<p class="advantages__item-text">Не надо их подбирать, тестировать, ремонтировать, закупать;
+								Ничего не сгорит и не подведёт</p>
+						</div>
+						<div class="advantages__item">
+							<img src="dist/images/advantages/5.svg" alt="" class="advantages__item-img">
+							<h4 class="advantages__title4">Забудьте о поломках, ремонте и обслуживании</h4>
+							<p class="advantages__item-text">Если устройство сломается, мы меняем на новое и ремонтируем
+								сами бесплатно</p>
+						</div>
+						<div class="advantages__item">
+							<img src="dist/images/advantages/6.svg" alt="" class="advantages__item-img">
+							<h4 class="advantages__title4">Устройства вычищены до блеска</h4>
+							<p class="advantages__item-text">Протёрты тряпочкой, продезинфецированы и ждут вас в
+								красивых коробочках</p>
+						</div>
+					</div>
+					<div class="advantages__ps">*Все устройства проходят тщательную проверку на работоспособность перед
+						арендой и заряжены на 100%</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="clients">
+			<div class="wrapper">
+				<div class="clients__content">
+					<h2 class="title2">Кто наши клиенты?</h2>
+					<div class="clients__list">
+						<div class="clients__item">
+							<img src="dist/images/clients/1.jpg" alt="" class="clients__item-img">
+							<h4 class="clients__title4">Для таксистов</h4>
+							<a href="#" class="link link_primary">Подробнее</a>
+						</div>
+						<div class="clients__item">
+							<img src="dist/images/clients/2.jpg" alt="" class="clients__item-img">
+							<h4 class="clients__title4">Для курьеров</h4>
+							<a href="#" class="link link_primary">Подробнее</a>
+						</div>
+						<div class="clients__item">
+							<img src="dist/images/clients/3.jpg" alt="" class="clients__item-img">
+							<h4 class="clients__title4">Для таксопарков</h4>
+							<a href="#" class="link link_primary">Подробнее</a>
+						</div>
+						<div class="clients__item">
+							<img src="dist/images/clients/4.jpg" alt="" class="clients__item-img">
+							<h4 class="clients__title4">Для курьерских служб</h4>
+							<a href="#" class="link link_primary">Подробнее</a>
+						</div>
+						<div class="clients__item">
+							<img src="dist/images/clients/5.jpg" alt="" class="clients__item-img">
+							<h4 class="clients__title4">Для ивент-агенств</h4>
+							<a href="#" class="link link_primary">Подробнее</a>
+						</div>
+						<div class="clients__item">
+							<img src="dist/images/clients/6.jpg" alt="" class="clients__item-img">
+							<h4 class="clients__title4">Для компаний</h4>
+							<a href="#" class="link link_primary">Подробнее</a>
+						</div>
+						<div class="clients__item">
+							<img src="dist/images/clients/7.jpg" alt="" class="clients__item-img">
+							<h4 class="clients__title4">Для частных лиц</h4>
+							<a href="#" class="link link_primary">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="benefit">
+			<div class="wrapper">
+				<div class="benefit__content">
+					<div class="benefit__inf">
+						<h2 class="title2">В приложении “Мой гаджет”</h2>
+						<h3 class="title3 benefit__title3">Можно произвести оплату аренды вашего смартфона</h3>
+					</div>
+					<div class="benefit__bg">
+						<div class="benefit__circle"></div>
+						<img src="dist/images/benefits/3.png" alt="" class="benefit__img">
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer"></footer>
+	<script src="dist/js/common-30fcae8076.js"></script>
+</body>
+
+</html>
