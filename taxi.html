@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Гаджеты в аренду</title>
+	<!-- Critical CSS -->
+	<link rel="stylesheet" href="dist/css/styles.css">
+</head>
+
+<body class="body body_green">
+
+	<header class="header">
+		<div class="header__top">
+			<div class="wrapper">
+				<div class="header__top-content">
+					<div class="header__locations">
+						<button class="location header__location header__location_main" data-id="33">Липецк</button>
+						<div class="header__locations-list">
+							<button class="link location header__location header__location_sub" data-id="33">Липецк</button>
+							<button class="link location header__location header__location_sub" data-id="35">Москва</button>
+							<button class="link location header__location header__location_sub" data-id="34">Санкт-Петербург</button>
+						</div>
+					</div>
+					<a class="link point header__point" href="contacts.html">Пункты выдачи</a>
+					<p class="worktime header__worktime">Без выходных с 10:00 до 20:00</p>
+					<a class="link phone-num header__phone" href="tel:+74999384177">+7 (499) 938-41-77</a>
+					<a class="link call link_primary header__call" href="#">Перезвонить вам?</a>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="wrapper">
+				<div class="header__bottom-content">
+					<a class="logo" href="index.html">
+						<img class="logo__img" src="dist/images/logo.svg" alt="">
+					</a>
+					<a href="tel:+74999384177" class="header__mobile-phone"></a>
+					<nav class="menu header__menu">
+						<ul class="menu__list">
+							<li class="menu__item menu__item_has-children">
+								<a class="link menu__link" href="#">Для бизнеса</a>
+								<ul class="sub-menu menu__sublist">
+									<li class="menu__item"><a class="link menu__link" href="taxi-firm.html">Для таксопарков</a></li>
+									<li class="menu__item"><a class="link menu__link" href="courier-service.html">Для курьерских служб</a></li>
+									<li class="menu__item"><a class="link menu__link" href="event-agency.html">Для ивент-агенств</a></li>
+								</ul>
+							</li>
+							<li class="menu__item menu__item_has-children">
+								<a class="link menu__link" href="#">Для частных лиц</a>
+								<ul class="sub-menu menu__sublist">
+									<li class="menu__item"><a class="link menu__link" href="taxi.html">Для таксистов</a></li>
+									<li class="menu__item"><a class="link menu__link" href="courier.html">Для курьеров</a></li>
+								</ul>								
+							</li>
+							<li class="menu__item"><a class="link menu__link" href="about.html">О компании</a></li>
+							<li class="menu__item menu__item_has-children">
+								<a class="link menu__link" href="#">Ещё</a>
+								<ul class="sub-menu menu__sublist">
+									<li class="menu__item"><a class="link menu__link" href="contacts.html">Контакты</a></li>
+                                    <li class="menu__item"><a class="link menu__link" href="pay.html">Получение и оплата</a></li>
+									<li class="menu__item"><a class="link menu__link" href="package.html">Что в комплекте</a></li>
+                                    <li class="menu__item"><a class="link menu__link" href="contacts.html">Точки выдачи</a></li>
+									<li class="menu__item"><a class="link menu__link" href="warranty.html">Гарантии</a></li>
+									<li class="menu__item"><a class="link menu__link" href="reviews.html">Отзывы</a></li>
+								</ul>								
+							</li>
+						</ul>
+						<button class="menu__toggle">
+							<span class="menu__lines"></span>
+						</button>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="banner banner_taxi">
+			<div class="wrapper">
+				<div class="banner__content">
+					<div class="banner__inf">
+						<h1 class="title1 banner__title1">Смартфоны в аренду <strong>для таксистов</strong></h1>
+						<h2 class="banner__title2">У других таксистов больше заказов?</h2>
+						<p class="banner__text">Возьмите в аренду мощный смартфон и получайте до 50% больше заказов
+							Подберём идеальный смартфон подешевле для Такспометра сегодня.</p>
+						<div class="cb-form">
+							<div class="cb-form__footer">
+								<button class="btn btn_call">Подобрать смартфон под мои задачи</button>
+								<p class="cb-form__text">Перезвоним в течении 10 мин. и отдадим сегодня</p>
+							</div>
+						</div>
+					</div>
+					<div class="phone banner__phone">
+						<img src="dist/images/phone.png" alt="" class="phone__img">
+						<div class="phone__content">
+							<div class="phone__time">13:15</div>
+							<div class="phone__date">14 июля</div>
+							<a href="#" class="phone__app">
+								<img src="dist/images/taxi/yandex.png" alt="" class="phone__app-img">
+							</a>
+							<a href="#" class="phone__app">
+								<img src="dist/images/taxi/city-mobil.png" alt="" class="phone__app-img">
+							</a>
+						</div>
+						<a href="#" class="phone__home-btn"></a>
+						<a href="#" class="phone__apps-btn"></a>
+						<a href="#" class="banner__price">
+							<div class="banner__price-text">
+								от <strong>60р</strong> в&nbsp;день
+							</div>
+						</a>
+					</div>
+					<div class="banner__bg">
+						<img src="dist/images/taxi/banner-img.png" alt="" class="banner__img">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="features">
+				<div class="wrapper">
+					<div class="features__slider">
+						<div class="features__swiper-container swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="features__item">
+										<img class="features__item-icon" src="dist/images/features/1.svg" alt="">
+										<p class="features__item-text">Только оригиналы в отличном состоянии <br>
+											У нас нет “китайских” телефонов</p>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="features__item">
+										<img class="features__item-icon" src="dist/images/features/2.svg" alt="">
+										<p class="features__item-text">Забирайте своё устройство <br>
+											в течении часа</p>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="features__item">
+										<img class="features__item-icon" src="dist/images/features/3.svg" alt="">
+										<p class="features__item-text">Ремонт, сервис и обслуживание <br>
+											мы берём на себя</p>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="features__item">
+										<img class="features__item-icon" src="dist/images/features/4.svg" alt="">
+										<p class="features__item-text">Хотите выкупить? <br>
+											Пожалуйста!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="advantages main__advantages">
+				<div class="wrapper">
+					<div class="advantages__content">
+						<h2 class="title2 advantages__title2">Что делать если:</h2>
+						<div class="advantages__list">
+							<div class="advantages__item">
+								<img class="advantages__item-img" src="dist/images/taxi/what-do/1.svg" alt="">
+								<p class="advantages__item-text advantages__item-text_big">Разбился телефон, а работать нужно, заказы не ждут?</p>
+							</div>
+							<div class="advantages__item">
+								<img class="advantages__item-img" src="dist/images/taxi/what-do/2.svg" alt="">
+								<p class="advantages__item-text advantages__item-text_big">Вы на смене, телефон сломался и прямо сейчас нужен новый?</p>
+							</div>
+							<div class="advantages__item">
+								<img class="advantages__item-img" src="dist/images/taxi/what-do/3.svg" alt="">
+								<p class="advantages__item-text advantages__item-text_big">Смартфон не тянет программы для такси?</p>
+							</div>
+							<div class="advantages__item">
+								<img class="advantages__item-img" src="dist/images/taxi/what-do/4.svg" alt="">
+								<p class="advantages__item-text advantages__item-text_big">Хотите работать в такси, но не готовы тратиться на подходящий смартфон?</p>
+							</div>
+							<div class="advantages__item">
+								<img class="advantages__item-img" src="dist/images/taxi/what-do/5.svg" alt="">
+								<p class="advantages__item-text advantages__item-text_big">Телефон старый, пропадает GPS, теряете заказы, таксопарк сказал менять телефон?</p>
+							</div>
+							<div class="advantages__item">
+								<img class="advantages__item-img" src="dist/images/taxi/what-do/6.svg" alt="">
+								<p class="advantages__item-text advantages__item-text_big">Просто хотите новый, потому что у других таксистов крутые телефоны, а денег нет?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="advantages main__advantages">
+				<div class="wrapper">
+					<div class="advantages__content">
+						<h2 class="title2 advantages__title2">Возьмите у нас на прокат современный телефон + сим-карта с интернетом всего от 60 рублей в день</h2>
+						<p class="text advantages__text advantages__text_full">Подходит для Таксометра, Грузовичкофф, доставки документов, еды и похожих задач</p>
+						<div class="advantages__list">
+							<div class="advantages__item">
+								<h4 class="advantages__title4">Работа не должна останавливаться</h4>
+								<p class="advantages__item-text">Вы продолжаете отрабатывать заказы с минимальным простоем на замену устройства, если с ним что-то случилось</p>
+							</div>
+							<div class="advantages__item">
+								<h4 class="advantages__title4">Вам не надо ждать неделю ремонта</h4>
+								<p class="advantages__item-text">Мы забираем сломанное устройство и сразу же выдаём вам новое</p>
+							</div>
+							<div class="advantages__item">
+								<h4 class="advantages__title4">Если вы не виноваты в поломке</h4>
+								<p class="advantages__item-text">То платить за ремонт не нужно</p>
+							</div>
+							<div class="advantages__item">
+								<img class="advantages__item-img" src="dist/images/taxi/take-advantages/1.svg" alt="">
+								<p class="advantages__item-text advantages__item-text_big">Нужен второй телефон, но вы не хотите его покупать?</p>
+							</div>
+							<div class="advantages__item">
+								<img class="advantages__item-img" src="dist/images/taxi/take-advantages/2.svg" alt="">
+								<p class="advantages__item-text advantages__item-text_big">Хотите быть уверены в качестве работы? Ваш телефон не даёт много заказов, так как Яндекс его блокирует?</p>
+							</div>
+							<div class="advantages__item">
+								<img class="advantages__item-img" src="dist/images/taxi/take-advantages/3.svg" alt="">
+								<p class="advantages__item-text advantages__item-text_big">Хотите заработать с нашим телефоном денег и купить себе новый?</p>
+							</div>
+						</div>
+						<button class="btn advantages__btn">Взять телефон в аренду</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="benefit main__benefit">
+				<div class="wrapper">
+					<div class="benefit__content">
+						<div class="benefit__inf">
+							<h2 class="title2">Вам больше не надо тратить время</h2>
+							<h3 class="title3 benefit__title3">На выбор телефона в магазине/интернете, поиск у друзей и тестирование аксессуаров</h3>
+						</div>
+						<div class="benefit__bg">
+							<img class="benefit__img" src="dist/images/taxi/benefits/1.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="info main__info">
+				<div class="wrapper">
+					<div class="info__content">
+						<div class="info__main">
+							<h2 class="title2">Хороший гаджет повысит ваш рейтинг в Яндекс.Такси</h2>
+							<div class="info__advs info__advs_full info__advs_offset_small">
+								<div class="text info__adv">Наши телефоны не виснут в самый неподходящий момент</div>
+								<div class="text info__adv">Они точно определяют координаты и вы не приедете на другую сторону улицы или дома</div>
+								<div class="text info__adv">Отображают маршрут без задержки, вы не пропустите поворот</div>
+								<div class="text info__adv">Светлые экраны без бликов, сколов и царапин позволят вам рассмотреть все детали маршрута</div>
+								<div class="text info__adv">Высокое качество связи оценят ваши клиенты</div>
+								<div class="text info__adv">Отличное качество GPS-сигнала с точным определением местоположения обеспечит быстрое время подачи</div>
+							</div>
+							<p class="text info__text">Все наши смартфоны подобраны специально для работы в такси и соответствуют требованиям Яндекса и Таксометра.</p>
+							<p class="text info__text">Так же они подойдут, если вы захотите развозить документы, вещи, еду. Или даже пойти в Грузовичкофф.</p>
+						</div>
+						<div class="info__bg">
+							<img class="info__img" src="dist/images/taxi/info/1.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="benefit main__benefit">
+				<div class="wrapper">
+					<div class="benefit__content">
+						<div class="benefit__inf">
+							<h2 class="title2">Качественные аксессуары</h2>
+							<h3 class="title3 benefit__title3">Зарядное устройство оригинальное и не спалит телефон или предохранитель в авто Кабель. Быстро и отлично заряжает. Крепление позволяет сразу сесть и работать</h3>
+						</div>
+						<div class="benefit__bg">
+							<img class="benefit__img" src="dist/images/taxi/benefits/2.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="info info_first-image main__info">
+				<div class="wrapper">
+					<div class="info__content">
+						<div class="info__bg">
+							<img class="info__img" src="dist/images/taxi/info/2.jpg" alt="">
+						</div>
+						<div class="info__main">
+							<h2 class="title2">Перед сдачей в аренду</h2>
+							<div class="info__advs info__advs_full info__advs_offset_small">
+								<div class="text info__adv">Все устройства протестированы на работоспособность.</div>
+								<div class="text info__adv">Вычищены до блеска и продезинфецированы.</div>
+								<div class="text info__adv">Предусматриваем все для вашего удобства и даём полный комплект, чтобы сразу сесть и работать.</div>
+								<div class="text info__adv">Все в отличном состоянии.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="test main__test">
+				<div class="wrapper">
+					<h2 class="title2 test__title2">Однажды мы провели эксперимент</h2>
+					<p class="text test__text">Мы взяли для тестирования в течение недели</p>
+					<div class="test__main">
+						<div class="test__item">
+							<span class="test__value">5</span> дешевых смартфонов
+						</div>
+						<div class="test__message"><b>С дешевыми</b> выручка таксистов была <b>в 1,5 раза меньше.</b></div>
+						<div class="test__item">
+							<span class="test__value">5</span> дорогих смартфонов
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="info main__info">
+				<div class="wrapper">
+					<div class="info__content">
+						<div class="info__main">
+							<h2 class="title2">Как улучшится ваша жизнь</h2>
+							<p class="text info__text">Получайте позитивные отзывы от клиентов, повышайте рейтинг, количество заказов, денег и чаевых. А мы подберем вас устройство, которое идеально подойдет для работы такси и не подведет вас.</p>
+							<p class="text info__text">Если что-то случится, заменим максимум за 24 часа (обычно намного быстрее).</p>
+							<div class="info__advs info__advs_full info__advs_offset_small">
+								<div class="text info__adv">Хотите выделиться? Получите признание коллег с новым статусным телефоном, у других такого не будет.</div>
+								<div class="text info__adv">Похвастаться перед коллегами, что у вас в 5 раз больше заказов? Легко.</div>
+								<div class="text info__adv">Нужны хорошие камеры для съемки вашего авто и селфи? Их много в каждой модели.</div>
+							</div>
+						</div>
+						<div class="info__bg">
+							<img class="info__img" src="dist/images/taxi/info/3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="profit profit_items_big main__profit">
+				<div class="wrapper">
+					<div class="profit__content">
+						<div class="profit__main">
+							<div class="profit__bg">
+								<img src="dist/images/taxi/profit/1.png" alt="" class="profit__img">
+							</div>
+							<div class="profit__circle"></div>
+							<div class="profit__inf">
+								<h2 class="title2">Арендуйте быстрый смартфон</h2>
+								<h3 class="title3 profit__title3">
+									<strong>от 60 руб./день</strong>
+								</h3>
+								<div class="profit__advs">
+									<div class="profit__adv">Получайте больше заказов</div>
+									<div class="profit__adv">Повышайте рейтинг</div>
+									<div class="profit__adv">Больше зарабатывайте</div>
+								</div>
+							</div>
+						</div>
+						<div class="profit__items">
+							<div class="profit__item">
+								<div class="profit__item-inf">
+									<div class="profit__item-title">Сломался?</div>
+									<div class="text">Заберем в ремонт и выдадим новый в тот же день</div>
+								</div>
+							</div>
+							<div class="profit__item">
+								<div class="profit__item-inf">
+									<div class="profit__item-title">Решили вернуть?</div>
+									<div class="text">Вы не теряете деньги за неистраченный месяц, так как платите каждый день</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="info info_task main__info">
+				<div class="wrapper">
+					<div class="info__content">
+						<div class="info__main">
+							<h2 class="title2">А еще мы гарантируем качество сервиса</h2>
+							<p class="text info__text">Всегда берем трубку и рассказываем обо всем, что вас волнует </p>
+							<p class="text info__text">Поможем установить программы и настроить смартфон</p>
+							<p class="text info__text">Забудьте обо всех заботах, возьмите смартфон в аренду и спокойно работайте</p>
+						</div>
+						<div class="info__bg">
+							<img class="info__img" src="dist/images/taxi/info/4.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="advantages main__advantages">
+				<div class="wrapper">
+					<div class="advantages__content">
+						<h2 class="title2 advantages__title2">Мы берём на себя</h2>
+						<p class="text advantages__text">Выбор, ремонт смартфона, замену экрана, а <strong>вы просто работаете.</strong></p>
+						<div class="advantages__list">
+							<div class="advantages__item advantages__item_small">
+								<h4 class="advantages__title4">Разбили свой телефон, а ремонт очень дорогой?</h4>
+								<p class="advantages__item-text">Проще взять в аренду. Все ремонты сделаем сами, если что-то случится, а вам выдадим новый.</p>
+							</div>
+							<div class="advantages__item advantages__item_small">
+								<h4 class="advantages__title4">Cейчас нет возможности купить, надо платить еще за аренду авто, а свой телефон работает очень плохо?</h4>
+								<p class="advantages__item-text">Не страшно. Возьмите пока у нас. Это очень дешево: всего от 60 рублей в день.</p>
+							</div>
+							<div class="advantages__item advantages__item_small">
+								<h4 class="advantages__title4">Нет возможности сегодня заплатить за аренду?</h4>
+								<p class="advantages__item-text">Ничего, возьмите отсрочку, мы подождем.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="benefit main__benefit">
+				<div class="wrapper">
+					<div class="benefit__content">
+						<div class="benefit__inf">
+							<h2 class="title2">Не дают кредит в банке <br> на новый смартфон?</h2>
+							<h3 class="title3 benefit__title3">Мы не смотрим вашу кредитную историю</h3>
+							<p class="text benefit__text">А еще устройство можно выкупить в рассрочку без участия банков.</p>
+						</div>
+						<div class="benefit__bg">
+							<img class="benefit__img" src="dist/images/taxi/benefits/3.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="message main__message">
+				<div class="wrapper">
+					<div class="message__content">
+						<h2 class="title2">Условия аренды и выкупа</h2>
+						<a href="#" class="btn message__btn">Узнать детали</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="stages main__stages">
+				<div class="wrapper">
+					<div class="stages__content">
+						<h2 class="title2 stages__title2">Как это работает?</h2>
+						<div class="stages__list">
+							<div class="stages__item">
+								<img src="dist/images/stages/1.svg" alt="" class="stages__item-icon">
+								<h4 class="stages__name">Оставьте заявку на сайте</h4>
+								<p class="stages__text">Подберём устройство под ваши задачи уже сегодня</p>
+							</div>
+							<div class="stages__item">
+								<img src="dist/images/stages/2.svg" alt="" class="stages__item-icon">
+								<h4 class="stages__name">Приходите в точку выдачи</h4>
+								<p class="stages__text">Заполните документы и получите ваше устройство сразу же. <br>
+									Самовывоз бесплатный. <br>
+									Возможна доставка.</p>
+							</div>
+							<div class="stages__item">
+								<img src="dist/images/stages/3.svg" alt="" class="stages__item-icon">
+								<h4 class="stages__name">Пользуйтесь</h4>
+								<p class="stages__text">Внося микро-платежи ежедневно с помощью приложения прямо в телефоне
+								</p>
+							</div>
+							<div class="stages__item">
+								<img src="dist/images/stages/4.svg" alt="" class="stages__item-icon">
+								<h4 class="stages__name">Что-то сломалось или не подошло?</h4>
+								<p class="stages__text">Бесплатно заменим за 24 часа</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="info info_task main__info">
+				<div class="wrapper">
+					<div class="info__content">
+						<div class="info__main">
+							<h2 class="title2">Подпишите на аренду друга и получите <strong>500 р. в подарок</strong></h2>
+							<p class="text info__text">Акция действует при использовании устройства не менее 1 месяца</p>
+						</div>
+						<div class="info__bg">
+							<img class="info__img" src="dist/images/taxi/info/5.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="faq main__faq">
+				<div class="wrapper">
+					<div class="faq__content">
+						<h2 class="title2 faq__title2">Вопросы и ответы</h2>
+						<div class="faq__list">
+							<details class="faq__item">
+								<summary>
+									<div class="faq__question">Какие у вас модели телефонов?</div>
+								</summary>
+								<div class="faq__answer">Как принято считать, сторонники тоталитаризма в науке и по сей день остаются уделом либералов, которые жаждут быть превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.</div>
+							</details>
+							<details class="faq__item">
+								<summary>
+									<div class="faq__question">Сколько стоит аренда?</div>
+								</summary>
+								<div class="faq__answer">Как принято считать, сторонники тоталитаризма в науке и по сей день остаются уделом либералов, которые жаждут быть превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.</div>
+							</details>
+							<details class="faq__item">
+								<summary>
+									<div class="faq__question">Какие программы поддерживает?</div>
+								</summary>
+								<div class="faq__answer">Как принято считать, сторонники тоталитаризма в науке и по сей день остаются уделом либералов, которые жаждут быть превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.</div>
+							</details>
+							<details class="faq__item">
+								<summary>
+									<div class="faq__question">Что вы мне дадите к телефону?</div>
+								</summary>
+								<div class="faq__answer">Как принято считать, сторонники тоталитаризма в науке и по сей день остаются уделом либералов, которые жаждут быть превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.</div>
+							</details>
+						</div>
+						<a href="#" class="btn faq__btn">Показать ещё</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="company main__company">
+				<div class="wrapper">
+					<div class="company__content">
+						<h2 class="title2 company__title2">Где работают таксисты, которые берут у нас телефоны в аренду</h2>
+						<div class="company__slider">
+							<div class="company__swiper-container swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="company__item">
+											<img src="dist/images/taxi/yandex.png" alt="" class="company__img">
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="company__item">
+											<img src="dist/images/taxi/city-mobil2.png" alt="" class="company__img">
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="company__item">
+											<img src="dist/images/taxi/gett.png" alt="" class="company__img">
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="company__item">
+											<img src="dist/images/taxi/yandex.png" alt="" class="company__img">
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="company__item">
+											<img src="dist/images/taxi/city-mobil2.png" alt="" class="company__img">
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="company__item">
+											<img src="dist/images/taxi/gett.png" alt="" class="company__img">
+										</div>
+									</div>
+								</div>
+							</div>
+							<button class="btn-prev company__btn-prev">
+								<svg width="9" height="20" viewBox="0 0 9 20" fill="none">
+									<path d="M4.3857e-07 9.96668C4.32744e-07 10.1 0.0644955 10.2999 0.12899 10.4332L7.86835 19.7636C8.12633 20.0302 8.5133 20.0969 8.77128 19.8303C9.02926 19.5637 9.09375 19.1638 8.83577 18.8972L1.48338 9.96668L8.83577 1.10275C9.09375 0.836168 9.02926 0.436291 8.77128 0.169706C8.5133 -0.0968781 8.06184 -0.0302315 7.86835 0.236353L0.12899 9.5668C0.0644955 9.63345 4.44397e-07 9.83338 4.3857e-07 9.96668Z" fill="#B1B1B1"/>
+								</svg>
+							</button>
+							<button class="btn-next company__btn-next">
+								<svg width="9" height="20" viewBox="0 0 9 20" fill="none">
+									<path d="M9 9.96668C9 10.1 8.9355 10.2999 8.87101 10.4332L1.13165 19.7636C0.873671 20.0302 0.486702 20.0969 0.228724 19.8303C-0.0292552 19.5637 -0.0937495 19.1638 0.164229 18.8972L7.51662 9.96668L0.164228 1.10275C-0.0937503 0.836168 -0.029256 0.436291 0.228723 0.169706C0.486701 -0.0968781 0.938165 -0.0302315 1.13165 0.236353L8.87101 9.5668C8.9355 9.63345 9 9.83338 9 9.96668Z" fill="#B1B1B1"/>
+								</svg>
+							</button>
+							<div class="pagination company__pagination"></div>
+						</div>
+						<a href="#" class="btn company__btn">Посмотреть отзывы</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="director main__director">
+				<div class="wrapper">
+					<div class="director__content">
+						<div class="director__inf">
+							<h2 class="title2">Директор по сервису</h2>
+							<h3 class="title3 director__name">Елизавета Фамилия</h3>
+							<a class="link phone-num director__link" href="tel:+74999384177">+7 (499) 938-41-77</a>
+							<a class="link email director__link" href="mailto:mail@gmail.com">mail@gmail.com</a>
+						</div>
+						<img src="dist/images/director.jpg" alt="Елизавета Фамилия" class="director__img">
+					</div>
+				</div>
+			</section>
+
+			<section class="callback main__callback">
+				<div class="wrapper">
+					<div class="callback__content">
+						<h2 class="title2 callback__title2">Хотите уточнить детали?</h2>
+						<button class="btn btn_white">Перезвоните мне</button>
+					</div>
+				</div>
+			</section>
+	</main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__top">
+                <div class="footer__column">
+                    <a href="index.html" class="logo">
+                        <img src="dist/images/logo.svg" alt="" class="logo__img">
+                    </a>
+                    <p class="footer__requisite">
+                        ИП Юрова Елена Ивановна <br>
+                        ИНН 343500267883 <br>
+                        ОГРНИП 315343500008661
+                    </p>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__name">Разделы</div>
+                    <div class="footer__item"><a href="taxi-firm.html" class="link footer__link">Для таксопарков</a></div>
+                    <div class="footer__item"><a href="courier-service.html" class="link footer__link">Для курьерских служб</a></div>
+                    <div class="footer__item"><a href="event-agency.html" class="link footer__link">Для ивент-агенств</a></div>
+                    <div class="footer__item"><a href="taxi.html" class="link footer__link">Для таксистов</a></div>
+                    <div class="footer__item"><a href="courier.html" class="link footer__link">Для курьеров</a></div>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__name">Информация</div>
+                    <div class="footer__item"><a href="pay.html" class="link footer__link">Получение и оплата</a></div>
+                    <div class="footer__item"><a href="package.html" class="link footer__link">Что в комплекте</a></div>
+                    <div class="footer__item"><a href="contacts.html" class="link footer__link">Точки выдачи</a></div>
+                    <div class="footer__item"><a href="warranty.html" class="link footer__link">Гарантии</a></div>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__name">Ещё</div>
+                    <div class="footer__item"><a href="about.html" class="link footer__link">О компании</a></div>
+                    <div class="footer__item"><a href="reviews.html" class="link footer__link">Отзывы</a></div>
+                    <div class="footer__item"><a href="contacts.html" class="link footer__link">Контакты</a></div>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__name">Контакты</div>
+                    <p class="location footer__location">Москва, ул. Шоссейная, д. 1, к. 1</p>
+                    <div class="footer__item"><a class="link phone-num" href="tel:+74999384177">+7 (499) 938-41-77</a></div>
+                    <div class="footer__item"><a class="link email" href="mailto:info@mobirent.ru">info@mobirent.ru</a></div>
+                    <p class="worktime">Без выходных с 10:00 до 20:00</p>
+                    <a href="#" class="link link_primary footer__link">Перезвонить вам?</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">2018-2021 © mobirent.ru</p>
+                <a href="#" class="link">Политика конфидициальности</a>
+            </div>
+        </div>
+    </footer>
+    <script src="dist/js/common.js"></script>
+</body>
+
+</html>
